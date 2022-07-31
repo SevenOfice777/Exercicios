@@ -1,0 +1,35 @@
+  * {
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+    
+  }
+  body {
+    width:100vw;
+    height:100vh;
+  }
+  
+  header {
+    text-align:center;
+    background:gray;
+    padding:10px;
+  }
+  
+  .section {
+    margin:20px auto;
+    padding:10px;
+    background:lightgray;  
+    line-height: 40px;
+    transform: translateX(20%, -20%);
+    transition-duration: 1s;
+  }
+  
+  .section-res {
+    paddinG:10px;
+    background:black;
+    color:white;
+    width:250px;
+    margin:auto;
+    text-align:center;
+  }
+  

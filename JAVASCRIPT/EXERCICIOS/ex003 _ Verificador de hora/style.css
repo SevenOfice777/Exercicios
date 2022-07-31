@@ -1,0 +1,42 @@
+* {
+  margin:0px;
+  padding:0px;
+  box-sizing: border-box;
+}
+
+body {
+  background:lightblue;
+  width:100vw;
+  height:100vh;
+}
+
+header {
+  padding:10px;
+  font:1em 'Times' serif;
+  text-align: center;
+  color:white;
+  background:black;
+}
+
+ h1 {
+  font:2em 'cursive';
+}
+
+h2 {
+  font:1em 'calibri';
+  
+}
+
+.sections {
+  padding:10px;
+  color:white;
+  background:black;
+  margin:10px auto;
+  width:50%;
+  text-align:center;
+}
+
+#txt {
+  color:red;
+  font:2em 'georgia';
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+   <meta charset="UTF-8">
+   <link rel="stylesheet" href="style.css">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <title>ex009</title>
+</head>
+
+<body>
+   <header>
+      <h1>Olá mundo!</h1>
+   </header>
+   <div class="dads">
+      
+      <div class="dados-dentro">
+         <div class="bs">
+            <div class="list">
+               <input type="radio" name="radio" class="operatio"><label for="list"> +</label><br />
+               <input type="radio" name="radio" class="operatio"><label for="list"> *</label><br />
+               <input type="radio" name="radio" class="operatio"><label for="list"> /</label><br />
+               <input type="radio" name="radio" class="operatio"><label for="list"> -</label><br />
+            </div>
+         </div>
+         <div class="ds">
+            <input type="number" id="val1" class="input">
+            <span id="operator">+</span>
+            <input type="number" id="val2" class="input">
+            <input type="submit" value="Calcular" id="submit" onclick="clicar()">
+         </div>
+      </div>
+   </div>
+   <div class="resultado">
+      <p id="res">Testando...</p>
+   </div>
+   
+   <script type="text/javascript" charset="utf-8">
+     window.onerror = function(errorMsg, url, lineNumber, column, errorObj) {
+    
+       alert('Tem um erro: ' + errorMsg + ' Lá no seu script: ' + url + ' Na linha: ' + lineNumber + ' Coluna: ' + column + ' Você errou: ' + errorObj);
+    
+     }
+  </script>
+
+   <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,132 @@
+* {
+   margin:0px;
+   padding:0px;
+   box-sizing: border-box;
+   color:white;
+}
+
+body {
+   overflow-x:hidden;
+   width:100vw;
+   height:100vh;
+   background:#124436;
+   color:white;
+   font-weight:bold;
+}
+
+.contain-all {
+   width:100%;
+   height:100%;
+}
+
+header {
+   margin:10px auto 40px;
+   width:80%;
+   padding:10px;
+   text-align:center;
+   TEXT-SHADOW:1px 2px 5px #121212;
+   font-family: 'georgia';
+   border:2px solid #126436;
+   background:linear-gradient(180deg, #124436, black);
+   box-shadow:5px 2px 20px 0px #124436;
+   border-radius:10px;
+   transition-duration: 1s;
+}
+
+main {
+   display:flex;
+   justify-content:space-around;
+   flex-wrap:wrap;
+   width:100%;
+   height:70%;
+   margin: 0px auto 20px;
+}
+
+.contain-program {
+   width: 60%;
+   padding: 10px;
+   text-align: center;
+   TEXT-SHADOW: 1px 2px 5px #121212;
+   font-family: 'georgia';
+   border: 2px solid #126436;
+   background: black;
+   box-shadow: 5px 2px 20px 0px #124436;
+   border-radius: 10px;
+}
+
+.contain-dados {
+   display:flex;
+   justify-content: center;
+   align-items:center;
+   width:100%;
+   height:50%;
+   padding:10px;
+   text-align:center;
+   TEXT-SHADOW:1px 2px 5px #121212;
+   font-family: 'georgia';
+   border:2px solid #126436;
+   border-radius:10px 10px 0px 0px;
+   background:black;
+}
+
+.contain-res {
+   margin-top:5px;
+   width:100%;
+   height:50%;
+   padding:10px;
+   text-align:center;
+   TEXT-SHADOW:1px 2px 5px #121212;
+   font-family: 'georgia';
+   border:2px solid #126436;
+   border-radius:0px 0px 10px 10px;
+   background:black;
+}
+
+.footer {
+   padding:10px;
+   text-align:center;
+   height:50%;
+   width:100%;
+}
+
+
+
+/* ---inputs --- */
+
+
+
+#val1 {
+   text-align: center;
+   width:50%;
+   display:block;
+   background:gray;
+   border:0px;
+   border-radius:10px;
+   padding:10px;
+   margin:10px auto;
+}
+
+#button {
+   width:50%;
+   color:black;
+   background: floralwhite;
+   border:0px;
+   padding:5px;
+   border-radius:5px;
+}
+
+#button:hover {
+   background:gray;
+   box-shadow: 2px 2px 5px 2px;
+   
+}
+
+#res {
+   width:80%;
+   color:gray;
+   font:normal 15pt 'Calibri';
+   margin:0px auto;
+}
+
+
+

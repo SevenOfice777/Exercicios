@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css" type="text/css" media="all" />
+  <title>ex004 | Calculadora de Percentual/Porcentagem</title>
+</head>
+
+<body>
+  <header>
+    <h1>Olá mundo!!!</h1>
+    <p>Seja bem vindo a mini-calculadora e percentual de desconto, juros, etc...</p>
+  </header>
+  <section class="section">
+    <label for="Digite seu <strong>Nome:</strong>">Digite seu <strong>Nome:</strong></label><br />
+    <input type="text" name="txt" id="txt"><br />
+    
+    <label for="Digite o valor do inicial<strong>Produto:</strong>">Digite o valor inicial do <strong>Produto:</strong></label><br />
+    <input type="number" name="n1" id="n1">    <br />
+    <label for="Digite o valor final do <strong>Produto:</strong>">Digite o valor final do <strong>Produto:</strong></label><br />
+    <input type="number" name="n2" id="n2">    <br />
+    
+  <input type="submit" value="Enviar" onclick="clicar()">
+  </section>
+  <section class="section-res">
+    <p id="res"></p>
+  </section>
+  <script type="text/javascript" charset="utf-8">
+     window.onerror = function(errorMsg, url, lineNumber, column, errorObj) {
+    
+       alert('Error: ' + errorMsg + ' Script: ' + url + ' Line: ' + lineNumber + ' Column: ' + column + ' StackTrace: ' + errorObj);
+    
+     }
+  </script>
+ 
+<script src="script(1).js"></script>
+</body>
+
+</html>

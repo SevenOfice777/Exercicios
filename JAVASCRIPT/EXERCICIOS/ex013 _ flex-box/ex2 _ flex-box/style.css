@@ -1,0 +1,120 @@
+* {
+   margin:0px;
+   padding:0px;
+   text-decoration: none;
+   box-sizing:border-box;
+}
+body {
+   display:flex;
+   flex-direction: COLUMN;
+   WIDTH:100vw; 
+   background:linear-gradient(to bottom, rgb(12, 30,24), rgb(12,40,59));
+   background-attachment: fixed;
+   
+}
+header {
+   width:100vw;
+   display:flex;
+   justify-content: space-between;
+   padding:20px;
+   align-items:center;
+  
+}
+
+picture {
+   width:50px;
+   height:50px;
+   background:linear-gradient(to bottom, rgb(12,12,30), rgb(12,50,80));
+   color:white;
+   border:0px;
+   display:flex;
+   align-items: center;
+   justify-content:center;
+   align-content: center;
+   border-radius:10px;
+   
+}
+
+
+nav {
+   display:flex;
+   align-items: center;
+   justify-content: space-around;
+   gap:30px;
+   
+}
+
+nav > a {
+   color:white;
+   font:bold 1em 'georgia';
+
+}
+
+nav > a:hover {
+   text-decoration:underline;
+}
+
+.container {
+   width:100vw;
+   display:flex;
+   flex-direction: column;
+   align-items:center;
+   justify-content: center;
+   gap:20px;
+}
+
+.title {
+   color:white;
+   font:1em 'georgia';
+}
+
+.cards {
+   display:flex;
+   gap:20px; 
+   flex-wrap:wrap;
+   width:100vw;
+   align-items:center;
+   justify-content: center;
+   
+}
+
+.cards-style {
+   display:flex;
+   flex-direction: column;
+   background:black;
+   width:200px;
+   height:300px;
+   border-radius:5px;
+   color:white;
+}
+
+.image {
+   display:flex;
+   align-items:center;
+   justify-content:center;
+   width:100%;
+   height:50%;
+}
+
+.information-product {
+   display:flex;
+   width:100%;
+   height:50%;
+   align-items:center;
+   justify-content:center;
+}
+
+.cards-style .image > img {
+   width:80%;
+   height:90%;
+   border-radius:1px;
+
+   
+}
+
+/*
+ .container > .title + .cards > #card$ + .cards-style
+ 
+*/
+
+

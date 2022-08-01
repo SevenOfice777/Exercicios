@@ -19,7 +19,7 @@
             display: flex;
             align-items: center;
             justify-content: center;
-
+            gap:40px;
             width:100vw;
             height:100vh;
             background:rgba(3, 5, 85, 0.541)
@@ -33,21 +33,41 @@
 
         }
 
-        input {
+        input{
             border:5px solid rgba(238, 238, 249, 0.541);
-            background-color: rgba(120, 154, 19, 0.533);
-            width:400px;
+            background-color: rgba(10, 2, 82, 0.37);
+            width:200px;
+        }
+
+        button {
+            color:white;
+            font:2em 'georgia';
+
+            border:5px solid rgba(238, 238, 249, 0.541);
+            background:rgba(10, 2, 82, 0.608);
+        }
+        button:hover {
+            color:green;
+            background:rgba(238, 238, 249, 0.541);
+            text-decoration:underline;
+        }
+
+        div.resultado {
+            width:250px;
+            height:250px;
+            background:black;
+            color:white;
         }
     </style>
 </head>
 <body>
    <div class="contain-all">
         <div class="formulario">
-            <input type="number" id="val1">
-            <input type="number" id="val2">
-            <input type="number" id="val3">
-            <input type="number" id="val4">
-            <input type="number" id="val5">
+            <input type="number" name="valor">
+            <input type="number" name="valor">
+            <input type="number" name="valor">
+            <input type="number" name="valor">
+            <input type="number" name="valor">
 
             <button onclick="clicar()">Enviar</button>
         </div>

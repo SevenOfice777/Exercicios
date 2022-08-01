@@ -1,4 +1,17 @@
+// Aula de funções 
 
+// São açoes executadas assim que são chamadas ou em decorreçia de
+// algum evento
 
+function parimp(n) {
+    if(n%2 ==0) {
+        return 'par' 
+    
+    } else {
+        return 'impar'
+    }
+}
 
- 
+let res = parimp(12)
+
+console.log(res)

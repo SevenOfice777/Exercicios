@@ -4,16 +4,59 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>ex015 | menu de opções</title>
+    <style>
+        * {
+            margin:0px;
+        }
+        body {
+            overflow-x: hidden;
+            width:100vw;
+            height:100%;
+        }
+        .contain-all {
+            display: flex;
+            align-items: center;
+            justify-content: center;
 
+            width:100vw;
+            height:100vh;
+            background:rgba(3, 5, 85, 0.541)
+        }
+
+        .formulario {
+            display:flex;
+            flex-direction: column;
+            gap:30px;
+            font:1em 'georgia';
+
+        }
+
+        input {
+            border:5px solid rgba(238, 238, 249, 0.541);
+            background-color: rgba(120, 154, 19, 0.533);
+            width:400px;
+        }
+    </style>
 </head>
 <body>
-   <header>
-        <h1>Olá mundo</h1>
-   </header>
-   <main>
-    <p>Inicio adicionais</p>
-    <input type="text" name="val1" id="val1">
-   </main>
+   <div class="contain-all">
+        <div class="formulario">
+            <label for="Nome:">Nome:</label>
+            <input type="text" name="nome" id="nome">
+            <label for="Senha">Senha:</label>
+            <input type="password" name="password" id="password">
+            <label for="Digite o valor do Produto" > Digite o valor do produto:</label>
+            <input type="number" name="produto" id="produto">
+
+            <button onclick="clicar()">Enviar</button>
+        </div>
+        <div class="resultado">
+            <p id="res"></p>
+        </div>
+   </div>
+
+   <script src="main.js"></script>
 </body>
 </html>
